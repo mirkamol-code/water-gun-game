@@ -11,15 +11,6 @@ public class Player {
         this.waterTank = 100;
     }
 
-    public int shoot() {
-        Random random = new Random();
-        return random.nextInt(20);
-    }
-
-    public void fillWaterGun(){
-        setWaterTank(100);
-    }
-
     public String getName() {
         return name;
     }
@@ -28,7 +19,7 @@ public class Player {
         this.name = name;
     }
 
-    public Integer getWaterTank() {
+    public int getWaterTank() {
         return waterTank;
     }
 
