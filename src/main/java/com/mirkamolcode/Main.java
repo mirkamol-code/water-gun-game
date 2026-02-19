@@ -35,5 +35,6 @@ public class Main {
             }
         }
         gameService.printWinner(firstPlayer, secondPlayer);
+        scanner.close();
     }
 }
